@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+nav a{
+    padding: 25px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#primeira{
+    background: red;
+}
+
+#segunda{
+    background-color: blue;
+}
+
+#terceira{
+    background-color: purple;
+    margin-bottom: 500px;
+}
+
+.scroll{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.ativo{
+    opacity: 1;
+}
