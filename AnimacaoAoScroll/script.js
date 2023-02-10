@@ -1,6 +1,6 @@
 let sections = document.querySelectorAll('section')
 
-console.log(sections.length)
+
 
 function animacaoScroll(){
     for(let i = 0; i < sections.length; i += 1){
@@ -14,3 +14,5 @@ function animacaoScroll(){
 
 
 window.addEventListener('scroll', animacaoScroll)
+
+
